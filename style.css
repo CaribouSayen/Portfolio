@@ -404,7 +404,7 @@ section#contact .btn {
 }
 
 .lds-ellipsis div:nth-child(1) {
-    left: 8px;
+    left: 9px;
     animation: lds-ellipsis1 0.6s infinite;
 }
 
