@@ -26,7 +26,7 @@ html {
 #loading {
     display        : flex;
     position       : fixed;
-    z-index        : 2;
+    z-index        : 3;
     top            : 0;
     left           : 0;
     height         : 100%;
@@ -489,11 +489,6 @@ section#contact .btn {
     100% {
         transform: translate(24px, 0);
     }
-}
-
-* {
-    margin : 0;
-    padding: 0;
 }
 
 .container {
