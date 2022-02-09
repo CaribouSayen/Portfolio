@@ -22,6 +22,21 @@ html {
     scroll-behavior: smooth;
 }
 
+#loading {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #66ec28, #f4f81d, #23a6d5, #910d91);
+    background-size: 500% 500%;
+    animation: gradient 15s ease infinite;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Boutons */
 
@@ -189,7 +204,7 @@ section#about .container-img {
 }
 
 section#talent {
-    height: 800px;
+    height: 650px;
 }
 
 section#talent h2 {
@@ -293,7 +308,7 @@ section#contact h2:after {
 }
 
 section#contact .field {
-    width: 100%;
+    width: 90%;
     border: 2px solid rgba(0, 0, 0, 0);
     outline: none;
     background-color: rgba(230, 230, 230, 0.6);
@@ -399,7 +414,7 @@ section#contact .btn {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #fff;
+    background: black;
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
