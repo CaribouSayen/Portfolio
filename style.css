@@ -90,30 +90,6 @@ html {
     transform: rotate(3deg);
 }
 
-.btn-3 {
-    text-align: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-origin: border-box;
-    background-color: blueviolet;
-    border: double 2px transparent;
-    box-shadow: 0 10px 30px rgb(118 85 225 / 30%);
-    color: black;
-    font-weight: bold;
-    border: 2px solid transparent;
-    text-decoration: none;
-    transition: .3s ease;
-}
-
-.btn-3:hover {
-    border: 2px solid black;
-    /* background-color: transparent; */
-    color: black;
-    cursor: crosshair;
-    transform: rotate(3deg);
-}
-
 
 /* Navigations */
 
@@ -125,6 +101,7 @@ nav {
     box-shadow: -1px 9px 24px -4px rgba(0, 0, 0, 0.25);
     text-align: center;
     height: 70px;
+    z-index: 2;
 }
 
 nav ul {
@@ -157,6 +134,7 @@ section#home .container-home {
     justify-content: space-evenly;
     height: 100vh;
     background: transparent;
+    position: relative;
 }
 
 div.padding {
@@ -171,8 +149,13 @@ div.padding-white {
     background-color: transparent;
 }
 
-section#home .container-img img {
+section#home .container-img img.titeuf {
     width: 400px;
+}
+
+section#home .btn-scroll {
+    position: absolute;
+    bottom: 120px;
 }
 
 section#home .container-text,
@@ -207,8 +190,9 @@ section#home .subtitle {
 section#about .container-about {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     justify-content: space-evenly;
-    height: 60vh;
+    height: 100vh;
 }
 
 section#about h2 {
@@ -544,8 +528,7 @@ body {
     left: 15px;
     right: 15px;
     bottom: 15px;
-    border: 1px solid #f0a591;
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
 }
@@ -602,4 +585,12 @@ body {
         transform: scaleX(0);
         transform-origin: right;
     }
+}
+
+ul.project-detail {
+    margin-bottom: 50px;
+}
+
+h2#project-title {
+    margin-bottom: 30px;
 }
