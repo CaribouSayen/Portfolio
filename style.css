@@ -201,12 +201,12 @@ section#about .container-about {
 }
 
 section#about h2 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size    : 25px;
 }
 
 section#about .about-desc {
-    margin-bottom: 45px;
+    margin-bottom: 60px;
     line-height  : 30px;
 }
 
