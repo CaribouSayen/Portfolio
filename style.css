@@ -168,6 +168,10 @@ section#home .container-img {
     margin-top: 15vh;
 }
 
+section#about .container-text{
+margin-right: 70px;
+}
+
 h1 {
     font-size: 40px;
 }
