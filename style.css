@@ -612,8 +612,10 @@ section#project .container{
 section#project .blob-container{
     background: url(./img/blob2.svg);
     background-repeat: none;
-    background-size: 100%;
+    background-size: 75%;
     background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -622,9 +624,11 @@ section#project .blob-container{
     padding-top: 100px;
     height: 400px;
     width: 45%;
+    min-width: 400px;
+    min-height: 400px ;
 }
 
 section#project ul.project-detail{
-    padding: 0px 100px;
+    max-width: 400px;
     list-style-type: none;
 }
