@@ -13,18 +13,11 @@
 
 <body>
 
-    <div id="loading">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    <img id="loading" src="./img/giphy.gif" />
 
     <script>
         $(window).on('load', function() {
-            $('#loading').delay(1000).fadeOut('slow');
+            $('#loading').delay(2000).fadeOut('slow');
         });
     </script>
 
